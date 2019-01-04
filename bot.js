@@ -47,7 +47,7 @@ client2.on('message', message => {
 
 client2.on('message', message => {
     if(message.content === '-اعطاء'){
-        message.channel.send('#credit @**Zinx | Friendly**#5250  4000')
+        message.channel.send('#credit @**Zinx | Friendly**  3600')
     }
 });
 
