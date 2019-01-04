@@ -12,10 +12,6 @@ client.on('ready', () => {
    console.log(`Loadinng...`);
    console.log(`This Bots Online ' `);
    console.log(`----------------`);
-   client.on('message', msg => {
-  if (msg.content === '1say') {
-    msg.author.send(`#credit ItxFriendly_ 4000`);
-     
 });
 
 
