@@ -81,7 +81,7 @@ if (command == "embed") {
 });
 
 client2.on('message', message => {
-   var prefix '-'
+var perfix = '/';
   if (message.author.bot) return;
   if (!message.content.startsWith(prefix)) return;
 
