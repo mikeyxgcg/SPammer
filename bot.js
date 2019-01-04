@@ -46,8 +46,8 @@ client2.on('message', message => {
 });
 
 client2.on('message', message => {
-    if(message.content === '-ريب'){
-        message.channel.send('#credits')
+    if(message.content === '-اعطاء'){
+        message.channel.send('#credit [user] 4000')
     }
 });
 
