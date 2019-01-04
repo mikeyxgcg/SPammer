@@ -91,7 +91,7 @@ client.on('message', message => {
   let args = message.content.split(" ").slice(1);
 
 // -say
-  if (command === "say") {
+  if (command === "-say") {
           message.delete()
     message.channel.sendMessage(args.join(" ")).catch(console.error);
   }
