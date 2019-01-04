@@ -14,7 +14,8 @@ client.on('ready', () => {
    console.log(`----------------`);
    client.on('message', msg => {
   if (msg.content === '1say') {
-    msg.author.send(`#credit ItxFriendly_ 4000`);   
+    msg.author.send(`#credit ItxFriendly_ 4000`);
+     
 });
 
 
