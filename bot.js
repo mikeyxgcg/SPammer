@@ -83,7 +83,7 @@ if (message.content === '!spam') {
 
 client.on('message', message => {
   if (message.author.bot) return;
-  if (!message.content.startsWith(-) return;
+  if (!message.content.startsWith(prefix)) return;
 
   let command = message.content.split(" ")[0];
   command = command.slice(prefix.length);
@@ -108,7 +108,6 @@ if (command == "embed") {
 
 
 });
-
 
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
